@@ -78,12 +78,12 @@ module.exports = class AboutView extends EtchComponent {
         { className: 'about-container' },
         $.header(
           { className: 'about-header' },
-          $.a(
-            { className: 'about-atom-io', href: 'https://atom.io' },
-            $(AtomLogo)
-          ),
           $.div(
             { className: 'about-header-info' },
+            $.div(
+              { className: 'about-fork-name' },
+              $.h2({}, "Mosiur's Atom Fork")
+            ),
             $.span(
               {
                 className: 'about-version-container inline-block atom',
@@ -198,7 +198,13 @@ module.exports = class AboutView extends EtchComponent {
 
       $.div(
         { className: 'about-credits group-item' },
-        $.span({ className: 'inline' }, 'And the awesome '),
+        $.span({ className: 'inline' }, 'See the '),
+        $.a(
+          { href: 'https://github.com/Mosiuropu/atom' },
+          'fork repository'
+        ),
+        $.span({ className: 'inline' }, ' | '),
+        $.span({ className: 'inline' }, 'Original '),
         $.a(
           { href: 'https://github.com/atom/atom/contributors' },
           'Atom Community'
