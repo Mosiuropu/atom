@@ -24,10 +24,11 @@ Atom was [sunset by GitHub](https://github.blog/2022-06-08-sunsetting-atom/) in 
 - [x] Fork initialized from `atom/atom` master
 - [x] Custom README and fork documentation
 - [x] Personalized About dialog and welcome experience
+- [x] Molecular biology language grammar (FASTA, FASTQ, BED, GFF3, VCF, GenBank)
 - [ ] Curated package recommendations for scientific computing
 - [ ] Additional language grammars (R, Julia, LaTeX enhanced)
 - [ ] Performance optimizations for large-file editing
-- [ ] Updated Electron version (security patches)
+- [ ] Updated Electron version (security patches) — requires significant architectural changes
 - [ ] Community-contributed theme variants
 
 ## 📦 Installation

@@ -1,0 +1,23 @@
+{
+  "name": "language-molecular-bio",
+  "version": "0.1.0",
+  "description": "Syntax highlighting and snippets for molecular biology and bioinformatics file formats: FASTA, FASTQ, BED, GFF, VCF, GenBank, PDB, and more.",
+  "keywords": [
+    "language",
+    "grammar",
+    "bioinformatics",
+    "molecular-biology",
+    "genomics",
+    "fasta",
+    "fastq",
+    "bed",
+    "gff",
+    "vcf"
+  ],
+  "main": "lib/main.js",
+  "repository": "https://github.com/Mosiuropu/atom",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}

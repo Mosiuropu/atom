@@ -1,0 +1,24 @@
+'scopeName': 'source.bed'
+'name': 'BED'
+'fileTypes': ['bed']
+'patterns': [
+  {
+    'match': '^(track|browser)\\b'
+    'name': 'keyword.control.bed'
+  }
+  {
+    'match': '^(\\S+)\\s+(\\d+)\\s+(\\d+)'
+    'name': 'meta.row.bed'
+    'captures':
+      '1':
+        'name': 'entity.name.tag.bed'
+      '2':
+        'name': 'constant.numeric.integer.bed'
+      '3':
+        'name': 'constant.numeric.integer.bed'
+  }
+  {
+    'match': '#.*$'
+    'name': 'comment.line.number-sign.bed'
+  }
+]

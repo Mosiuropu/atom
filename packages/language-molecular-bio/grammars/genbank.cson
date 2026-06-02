@@ -1,0 +1,53 @@
+'scopeName': 'source.genbank'
+'name': 'GenBank'
+'fileTypes': ['gb', 'gbk', 'genbank']
+'patterns': [
+  {
+    'match': '^LOCUS\\s+'
+    'name': 'keyword.other.locus.genbank'
+  }
+  {
+    'match': '^DEFINITION\\s+'
+    'name': 'keyword.other.definition.genbank'
+  }
+  {
+    'match': '^ACCESSION\\s+'
+    'name': 'keyword.other.accession.genbank'
+  }
+  {
+    'match': '^VERSION\\s+'
+    'name': 'keyword.other.version.genbank'
+  }
+  {
+    'match': '^SOURCE\\s+'
+    'name': 'keyword.other.source.genbank'
+  }
+  {
+    'match': '^ORGANISM\\s+'
+    'name': 'keyword.other.organism.genbank'
+  }
+  {
+    'match': '^REFERENCE\\s+'
+    'name': 'keyword.other.reference.genbank'
+  }
+  {
+    'match': '^FEATURES\\s+'
+    'name': 'keyword.other.features.genbank'
+  }
+  {
+    'match': '^ORIGIN\\s+'
+    'name': 'keyword.other.origin.genbank'
+  }
+  {
+    'match': '^\\s+\\/\\w+=\".*\"'
+    'name': 'string.quoted.double.genbank'
+  }
+  {
+    'match': '^\\s+(CDS|gene|mRNA|exon|intron|5\'UTR|3\'UTR|promoter|repeat_region|regulatory)'
+    'name': 'entity.name.function.feature.genbank'
+  }
+  {
+    'match': '//'
+    'name': 'keyword.other.terminator.genbank'
+  }
+]

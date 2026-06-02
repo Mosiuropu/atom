@@ -1,0 +1,24 @@
+'scopeName': 'source.fastq'
+'name': 'FASTQ'
+'fileTypes': ['fastq', 'fq']
+'patterns': [
+  {
+    'match': '^@(.*)$'
+    'name': 'entity.name.function.fastq'
+    'captures':
+      '1':
+        'name': 'string.unquoted.fastq'
+  }
+  {
+    'match': '^([ACGTURYSWKMBDHVNacgturyswkmbdhvn]+)$'
+    'name': 'constant.character.nucleotide.fastq'
+  }
+  {
+    'match': '^\\+(.*)$'
+    'name': 'entity.name.tag.fastq'
+  }
+  {
+    'match': '^([!-~]+)$'
+    'name': 'constant.character.quality.fastq'
+  }
+]

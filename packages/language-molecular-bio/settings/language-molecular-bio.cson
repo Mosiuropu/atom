@@ -1,0 +1,34 @@
+'.source.fasta':
+  'editor':
+    'commentStart': '# '
+    'tabLength': 4
+    'softTabs': true
+
+'.source.fastq':
+  'editor':
+    'commentStart': '# '
+    'tabLength': 4
+    'softTabs': true
+
+'.source.bed':
+  'editor':
+    'tabLength': 4
+    'softTabs': true
+
+'.source.gff3':
+  'editor':
+    'commentStart': '# '
+    'tabLength': 4
+    'softTabs': true
+
+'.source.vcf':
+  'editor':
+    'commentStart': '# '
+    'tabLength': 4
+    'softTabs': true
+
+'.source.genbank':
+  'editor':
+    'commentStart': '# '
+    'tabLength': 4
+    'softTabs': true

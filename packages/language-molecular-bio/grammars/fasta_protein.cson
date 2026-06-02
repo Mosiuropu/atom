@@ -1,0 +1,20 @@
+'scopeName': 'source.fasta.protein'
+'name': 'FASTA Protein'
+'fileTypes': ['faa']
+'patterns': [
+  {
+    'match': '^>(.*)$'
+    'name': 'entity.name.function.fasta'
+    'captures':
+      '1':
+        'name': 'string.unquoted.fasta'
+  }
+  {
+    'match': '^([ACDEFGHIKLMNPQRSTVWYacdefghiklmnpqrstvwy]+)$'
+    'name': 'constant.character.protein.fasta'
+  }
+  {
+    'match': '^;.*$'
+    'name': 'comment.line.semicolon.fasta'
+  }
+]
